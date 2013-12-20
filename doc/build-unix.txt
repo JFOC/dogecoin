@@ -70,6 +70,15 @@ sudo apt-get install libdb4.8++-dev
  or Boost 1.37: sudo apt-get install libboost1.37-dev
 sudo apt-get install libqrencode-dev
 
++FOR MPOS+STRAUM+MINER DEPENDENCY
+=================================
+sudo apt-get install git build-essential libboost1.48-dev libboost-system1.48-dev \
+libboost-filesystem1.48-dev libboost-program-options1.48-dev libboost-thread1.48-dev \
+libssl-dev libdb++-dev libminiupnpc-dev libqrencode-dev apache2 mysql-server php5-cli php5-mcrypt php5-memcache \
+python-twisted python-mysqldb python-dev python-setuptools python-memcache python-simplejson \
+memcached php5-memcached php5-mysqlnd php5-curl \
+libcurl4-openssl-dev libqrencode-dev yasm libgmp-dev libssl-dev dos2unix
+
 If using Boost 1.37, append -mt to the boost libraries in the makefile.
 
 
